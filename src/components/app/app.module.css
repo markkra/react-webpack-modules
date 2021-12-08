@@ -1,0 +1,24 @@
+:global :root {
+  font-size: calc(0.5rem + 1vw);
+  --two-em: 2em;
+}
+
+body {
+  line-height: 1.2;
+}
+
+.title {
+  color: white;
+  background-color: black;
+}
+
+.about-us {
+  font-size: var(--two-em);
+}
+
+.center-box {
+  max-width: 50%;
+  margin: 0 auto;
+  border: 1px solid green;
+  padding: var(--two-em);
+}
